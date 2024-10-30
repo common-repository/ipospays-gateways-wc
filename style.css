@@ -1,0 +1,168 @@
+.card-cvv-month {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.ccnumber input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.ccexpiry input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.cccvv input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.cccvv input:focus {
+  border: none;
+}
+
+/* Container styling */
+.card-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0px;
+}
+
+/* Input field styling */
+.ccnumber {
+  width: 100%;
+}
+
+.ccnumber:focus {
+  border-color: #0073aa; /* Add a focus effect */
+}
+
+.google-pay-button {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.google-pay-button button {
+  width: 100%;
+}
+
+.or-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.or-section .or-section-hr {
+  height: 1px;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.ccnumber-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--p-colorBackgroundDeemphasize10);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  background: white;
+}
+
+.ccnumber-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* This ensures the icon doesn't block input clicks */
+  fill: #999; /* Color of the icon */
+  /* width: 100px; */
+}
+
+/* .ccnumber-icon img{
+    width: 100%;
+    height: 100%;
+} */
+
+.ccnumber-input-container .ccnumber .css-1t5ousf {
+  margin-bottom: 0px !important;
+}
+
+.ccexpiry-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--p-colorBackgroundDeemphasize10);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  background: white;
+}
+
+.ccexpiry-input-container .ccexpiry .css-1t5ousf {
+  margin-bottom: 0px !important;
+}
+
+.cvv-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--p-colorBackgroundDeemphasize10);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.03), 0px 3px 6px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  background: white;
+}
+
+.cvv-input-container .cccvv .css-1t5ousf {
+  margin-bottom: 0px !important;
+}
+
+.cvv-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* This ensures the icon doesn't block input clicks */
+  fill: #999; /* Color of the icon */
+}
+
+.ccnumber-container {
+  width: 50%;
+}
+
+.ccexpiry-container {
+  width: 25%;
+}
+
+.cccvv-container {
+  width: 25%;
+}
+
+.card-label {
+  font-size: 0.93rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.loading-message {
+  color: #333; /* Dark gray text color */
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+:where(.wp-site-blocks *:focus){
+    outline: none !important;
+}
